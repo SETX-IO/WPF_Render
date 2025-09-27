@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WPF_Render.Renderder\WPF_Render.Renderder.vcxproj" ReferenceOutputAssembly="False"/>
+  </ItemGroup>
+
+	<ItemGroup>
+		<DllFiles Include="../x64/$(Configuration)/*.dll;../x64/$(Configuration)/*.pdb" />
+	</ItemGroup>
+
+	<Target Name="CopyDLL" AfterTargets="Build">
+		<Copy SourceFiles="@(DllFiles)" DestinationFolder="$(OutDir)" />
+	</Target>
+	
+</Project>

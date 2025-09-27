@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="WPF_Render.Renderder/WPF_Render.Renderder.vcxproj" Id="458acf43-66db-4a2a-b3ef-0b5f9d45107a" />
+  <Project Path="WPF_Render.SandBox/WPF_Render.SandBox.csproj" Id="a28b7af9-ff23-4336-9e4f-45c06e3d059b" />
+</Solution>
