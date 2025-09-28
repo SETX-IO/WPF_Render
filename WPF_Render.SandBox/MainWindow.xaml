@@ -6,7 +6,8 @@
         xmlns:i="clr-namespace:System.Windows.Interop;assembly=PresentationCore"
         xmlns:local="clr-namespace:WPF_Render.SandBox"
         mc:Ignorable="d" Background="Transparent"
-        Title="MainWindow" Height="450" Width="800">
+        SourceInitialized="MainWindow_OnSourceInitialized"
+        Title="MainWindow" Height="500" Width="800">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="-1"/>
     </WindowChrome.WindowChrome>

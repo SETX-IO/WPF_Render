@@ -9,15 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WPF_Render.Renderder\WPF_Render.Renderder.vcxproj" ReferenceOutputAssembly="False"/>
+    <ProjectReference Include="..\WPF_Render.Renderer\WPF_Render.Renderer.csproj" />
   </ItemGroup>
 
-	<ItemGroup>
-		<DllFiles Include="../x64/$(Configuration)/*.dll;../x64/$(Configuration)/*.pdb" />
-	</ItemGroup>
-
-	<Target Name="CopyDLL" AfterTargets="Build">
-		<Copy SourceFiles="@(DllFiles)" DestinationFolder="$(OutDir)" />
-	</Target>
 	
 </Project>
