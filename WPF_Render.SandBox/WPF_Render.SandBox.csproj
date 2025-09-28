@@ -12,5 +12,11 @@
     <ProjectReference Include="..\WPF_Render.Renderer\WPF_Render.Renderer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
+    <PackageReference Include="Vortice.Wpf" Version="3.6.2" />
+  </ItemGroup>
+
 	
 </Project>

@@ -8,13 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <Folder Include="DirectX\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Vortice.D3DCompiler" Version="3.6.2" />
     <PackageReference Include="Vortice.Direct2D1" Version="3.6.2" />
-    <PackageReference Include="Vortice.Direct3D9" Version="3.6.2" />
+    <PackageReference Include="Vortice.Direct3D11" Version="3.6.2" />
     <PackageReference Include="Vortice.DirectX" Version="3.6.2" />
     <PackageReference Include="Vortice.DXGI" Version="3.6.2" />
   </ItemGroup>

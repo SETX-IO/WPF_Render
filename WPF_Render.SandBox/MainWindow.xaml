@@ -3,19 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:i="clr-namespace:System.Windows.Interop;assembly=PresentationCore"
+        xmlns:v="http://schemas.vortice.windows.io"
         xmlns:local="clr-namespace:WPF_Render.SandBox"
         mc:Ignorable="d" Background="Transparent"
-        SourceInitialized="MainWindow_OnSourceInitialized"
         Title="MainWindow" Height="500" Width="800">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="-1"/>
     </WindowChrome.WindowChrome>
     <Grid>
-        <Image x:Name="imgelt" Grid.Row="1">
-            <Image.Source>
-                <i:D3DImage x:Name="d3dimg"/>
-            </Image.Source>
-        </Image>
+        <v:DrawingSurface/>
     </Grid>
 </Window>
