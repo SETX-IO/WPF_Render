@@ -17,6 +17,11 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
     <PackageReference Include="Vortice.Wpf" Version="3.6.2" />
   </ItemGroup>
-
 	
+  <ItemGroup>
+    <None Update="Assets\Triangle.hlsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

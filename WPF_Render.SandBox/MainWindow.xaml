@@ -11,6 +11,6 @@
         <WindowChrome GlassFrameThickness="-1"/>
     </WindowChrome.WindowChrome>
     <Grid>
-        <v:DrawingSurface/>
+        <v:DrawingSurface Name="Surface" LoadContent="DrawingSurface_LoadContent" UnloadContent="DrawingSurface_UnloadContent"  Draw="DrawingSurface_Draw" />
     </Grid>
 </Window>
