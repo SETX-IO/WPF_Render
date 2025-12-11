@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace WPF_Render.SandBox
+namespace Driextx_WPF
 {
     /// <summary>
     /// Interaction logic for App.xaml
